@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&display=swap');
+
+:root {
+    /* Font */
+    --heading-font: "Bruno Ace SC";
+    --paragraph-font: "Bruno Ace";  
+    /* Body */
+    --background-color: #e20fbf;
+    /* Title */
+    --title-text-color: white;
+    --title-hover-text-color: black;
+    /* Quote_1 */
+    --quote-text-color: white;
+    /* Doctrine_of_Christ */
+    --background2-color: #a1896b;
+    /* Quote_2 */
+    --main-background-color: #a1896b;
+    --main-text-color: #643200;
+    /* Source */
+    --footer-background-color: #643200;
+    --footer-text-color: white;
+    --footer-hover-background-color: #a1896b;
+    --footer-hover-text-color: #643200;
+}
+body {
+    background-color: var(--background-color);
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+#title {
+    color: var(--title-text-color);
+    font-family: var(--heading-font);
+}
+#title :hover{
+    color: var(--title-hover-text-color);
+}
+#quote_1, #quote_2{
+    color: var(--quote-text-color);
+    font-family: var(--paragraph-font);
+}
+#Nelson_img {
+    width: 25%;
+}
