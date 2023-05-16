@@ -1,0 +1,16 @@
+body {
+    background-color: #000000;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+#circle-images ul {
+    background-color: #808080;
+    margin: 0 auto;
+}
+#circle-images img {
+    margin: 3%;
+    width: 20%;
+    border: 10px solid #5a5a5a;
+    border-radius: 50%;
+}
