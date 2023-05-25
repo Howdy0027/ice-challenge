@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: grey;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.photo {
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    letter-spacing: 0.1em;
+    align-self: center;
+    font-size: 6em;
+    color: black;
+}
+.text {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    letter-spacing: 0.2em;
+    align-self: start;
+    font-size: 3em;
+    color: darkred;
+    margin-top: 0%;
+}
