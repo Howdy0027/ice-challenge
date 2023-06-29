@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card {
+    background-color: white;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.headerimage {
+    width: 100%;
+}
+.ageofarticle {
+    text-align: center;
+    color: steelblue;
+    margin-bottom: 0;
+}
+.title {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 2em;
+}
+.awesomeartcile {
+    width: 75%;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
